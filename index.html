@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>express-framework-demo</title> 
+</head>
+<body>
+  <p id = 'status'></p> 
+  <button id = 'zoom'>Crop</button>
+  <a id= "a1" download="">Download Log Data</a>
+  <a id= "a2" download="">Download Current Data</a>
+  <input type ="file" id='myImg' accept="image"/><br><br>
+  <canvas id = 'canvas' width = 600 height = 500 style="border:1px solid #000000;"></canvas>
+  
+  <div id ='buttons'>
+    <button id = 'undo'>UNDO</button>
+    <button id = 'reset'>RESET/CLEAR</button>
+    <button id = 'line'>LINE</button>
+    <button id = 'polygon'>POLYGON</button>
+    <button id = 'rectangle'>BOUNDING-BOX</button>
+    <button id = 'ellipse'>ELLIPSE</button>
+    <!--<h3>Data:<span id = 'img-data'></span></h3>-->
+  </div>
+
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <p id = 'modal-p'></p>
+    </div>
+  
+  </div>
+<!--<h3>No of objects:<span id ='count-of-objects'></span></h3>
+<h3>Objects data:<span id = 'objects-data'></span></h3>
+<h3><span id = 'canvas-cordinates'></span></h3>
+<h3><span id = 'org-cordinates'></span></h3>-->
+<link rel  ="stylesheet" href = "./assets/style.css">
+<script src = "./assets/testfile.js"></script>
+</body>
+</html>
